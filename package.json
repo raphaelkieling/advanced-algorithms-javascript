@@ -4,7 +4,7 @@
   "description": "Link of the book [here](https://github.com/790013438/Free-Algorithm-Books-1/blob/master/book/Grokking%20Algorithms%20-%20An%20illustrated%20guide%20for%20programmers%20and%20other%20curious%20people.pdf)",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"ts-node binary-search.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,8 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.2"
+    "eslint-plugin-import": "^2.17.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
   }
 }
